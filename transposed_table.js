@@ -21,10 +21,6 @@
           },
           // Render in response to the data or settings changing
           update: function(data, element, config, queryResponse) {
-              console.log(data);
-              console.log(queryResponse);
-
-
               // destory old viz if already exists
               if ($("#transposed_table").hasClass("tabulator")) { $("#transposed_table").tabulator("destroy") }
 
